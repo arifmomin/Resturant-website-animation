@@ -1,0 +1,169 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+    /* ========================== back to top button ================================ */
+    
+    /* -------------------------- back to top button -------------------------------- */
+    /* ========================header part start======================= */
+ header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header_row {
+	gap: 5px;
+}
+.header_contact a {
+    font-size: 12px;
+}
+.header_contact a span {
+	font-size: 10px;
+	margin-right: 5px;
+}
+.header_search input {
+	font-size: 10px;
+}
+.header_search input::placeholder{
+    font-size: 10px;
+}
+.header_search {
+	width: 165px;
+	padding: 5px 5px;
+}
+.header_search a {
+	font-size: 12px;
+}
+.header_col {
+	gap: 0px;
+}
+.btn-secondary {
+	font-size: 10px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 80px; 
+	--bs-dropdown-padding-y: 0px; 
+    --bs-dropdown-item-padding-x: 3px;
+  --bs-dropdown-item-padding-y: 1px;
+}
+.dropdown .flag {
+	width: 15px !important;
+}
+.btn-secondary span {
+	font-size: 10px;
+}
+.header_icon a {
+	font-size: 12px;
+    margin-right: 10px;
+}
+.header_icon a span {
+	width: 15px;
+	height: 15px;
+	font-size: 8px;
+}
+.header_profile a {
+	width: 22px;
+	height: 22px;
+	font-size: 10px;
+}
+.dropdown-item {
+	font-size: 10px;
+	font-weight: 400;
+}
+   /* -----------------------header part end---------------------- */
+    /* ========================= menu part start ================================================= */
+.navbar {
+    --bs-navbar-toggler-padding-y: 5px;
+    --bs-navbar-toggler-padding-x: 10px;
+    --bs-navbar-brand-padding-y: 0px; 
+    --bs-navbar-nav-link-padding-x: 0px; 
+    --bs-navbar-toggler-focus-width: 0px; 
+}
+.navbar-toggler {
+    line-height: 0;  
+}
+.navbar-toggler-icon {
+     width: 22px;
+    height: 20px;
+    background-image: none;
+}
+.menu_bar {
+    height: 60px;
+    background: #ffffff !important;
+}
+.navbar {
+	--bs-navbar-toggler-border-color: #FFAC00;
+}
+.navbar-toggler-icon i{
+    color: #FFAC00;
+}
+
+.menu_bar ul {
+	gap: 20px;
+	align-items: center;
+    z-index: 9999;
+}
+.menu_bar ul li a {
+	font-size: 16px;
+}
+.navbar-nav-scroll {
+	max-height: none;
+}
+.menu_bar ul {
+	gap: 20px;
+	align-items: center;
+	background: #000000;
+	border-radius: 20px;
+    padding-bottom: 15px;
+	padding-top: 10px;
+}
+.navbar-collapse {
+	z-index: 999;
+}
+.menu_bar ul li a{
+    color: #ffffff !important;
+}
+.menu_bar ul li a:hover {
+    color: #FFAC00 !important;
+    transform: scale(1.1);
+}
+.menu_button a {
+    width: 150px;
+	height: 45px;
+	font-size: 14px;
+	border: 2px solid #FFAC00;
+    color: #ffffff;
+}
+.menu_bar ul li a::after {
+	background: #FFAC00;
+}
+
+    /*  ------------------------- menu part end --------------------------------------------- */
+    /* ========================= Banner part start ========================================== */
+#text1, #text2 {
+    font-size: 26px;
+}
+.word {
+    font-size: 26px;
+}
+
+
+
+
+    /* ------------------------- Banner part end  ------------------------------------------- */
+
+   
+
+    /* ========================= Footer part start ========================================== */
+
+    /* ------------------------- Footer part end  ------------------------------------------- */
+}
+
+/* ================= Small device responsive================ */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
